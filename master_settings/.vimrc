@@ -1,21 +1,23 @@
 map ; :
 
-set rnu
 set smartindent
 syntax on
 set ai
+set ic
 set aw
 set ts=2
+set nu
 set sw=2
-set list
 set expandtab
 set softtabstop=2
+colorscheme desert 
+set incsearch
 filetype indent plugin on
 
 execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+highlight OverLength ctermbg=grey ctermfg=black guibg=#592929
 match OverLength /\%81v.\+/
 
 au VimEnter * RainbowParenthesesToggle
