@@ -3,6 +3,7 @@ map ; :
 set smartindent
 syntax on
 set ai
+set paste
 set ic
 set aw
 set ts=2
