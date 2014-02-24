@@ -5,11 +5,11 @@ NB: Currently, Omniloader does not take into account a pre-existing ~/.vim direc
 
 Install
 -------
-<pre><code>curl https://raw.github.com/Supernats/omniloader/master/install.rb | ruby</code></pre>
+<pre><code>curl https://raw.github.com/gkchestertron/omniloader/master/install.rb | ruby</code></pre>
 
 Uninstall
 ---------
-<pre><code>curl https://raw.github.com/Supernats/omniloader/master/uninstall.rb | ruby</code></pre>
+<pre><code>curl https://raw.github.com/gkchestertron/omniloader/master/uninstall.rb | ruby</code></pre>
 
 Do you work in an environemnt where you are often switching between machines? Do you tire of your boring terminal and miss your beautiful .vimrc and plugins? Omniloader is for you, my friend. You can start your day with one curl, code your amazingness, and then run the uninstall curl and it will be like you were never there. The machine's existing .bashrc and .vimrc are copied off and, upon uninstall, they revert and the entire installation directory is wiped.  
 
