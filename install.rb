@@ -43,91 +43,91 @@ puts nerd ? "done" : "failed"
 puts
 
 puts "Installing ctrlp.vim..."
-ctrlp = system("git clone https://github.com/kien/ctrlp.vim ~/.vim/bundle/ctrlp.vim")
+ctrlp = system("sudo git clone https://github.com/kien/ctrlp.vim ~/.vim/bundle/ctrlp.vim")
 puts ctrlp ? "done" : "failed"
 puts
 
 puts "Installing Rainbow Parentheses..."
-rain = system("git clone https://github.com/kien/rainbow_parentheses.vim ~/.vim/bundle/rainbow_parentheses.vim")
+rain = system("sudo git clone https://github.com/kien/rainbow_parentheses.vim ~/.vim/bundle/rainbow_parentheses.vim")
 puts rain ? "done" : "failed"
 puts
 
 puts "Installing Fugitive..."
-fugitive = system("git clone https://github.com/tpope/vim-fugitive ~/.vim/bundle/vim-fugitive")
+fugitive = system("sudo git clone https://github.com/tpope/vim-fugitive ~/.vim/bundle/vim-fugitive")
 puts fugitive ? "done" : "failed"
 puts
 
 puts "Installing Indent Guides..."
-indent = system("git clone https://github.com/nathanaelkane/vim-indent-guides ~/.vim/bundle/vim-indent-guides")
+indent = system("sudo git clone https://github.com/nathanaelkane/vim-indent-guides ~/.vim/bundle/vim-indent-guides")
 puts indent ? "done" : "failed"
 puts
 
 puts "Installing rails.vim..."
 vimrails = system(
-  "git clone git://github.com/tpope/vim-rails.git  ~/.vim/bundle/vim-rails"
+  "sudo git clone git://github.com/tpope/vim-rails.git  ~/.vim/bundle/vim-rails"
 )
 puts vimrails ? "done" : "failed"
 puts
 
 puts "Installing vim bundler..."
 vimbundler = system(
-  "git clone git://github.com/tpope/vim-bundler.git ~/.vim/bundle/vim-bundler"
+  "sudo git clone git://github.com/tpope/vim-bundler.git ~/.vim/bundle/vim-bundler"
 )
 puts vimbundler ? "done" : "failed"
 puts
 
 puts "Installing commentary.vim..."
 commentary = system(
-  "git clone git://github.com/tpope/vim-commentary.git ~/.vim/bundle/vim-commentary"
+  "sudo git clone git://github.com/tpope/vim-commentary.git ~/.vim/bundle/vim-commentary"
 )
 puts commentary ? "done" : "failed"
 puts
 
 puts "Installing Vim Backbone..."
 backbone = system(
-  "git clone git://github.com/mklabs/vim-backbone.git ~/.vim/bundle/vim-backbone"
+  "sudo git clone git://github.com/mklabs/vim-backbone.git ~/.vim/bundle/vim-backbone"
 )
 puts backbone ? "done" : "failed"
 puts
 
 puts "Installing Vim-Javascript..."
 javascript = system(
-  "git clone https://github.com/pangloss/vim-javascript.git ~/.vim/bundle/vim-javascript"
+  "sudo git clone https://github.com/pangloss/vim-javascript.git ~/.vim/bundle/vim-javascript"
 )
 puts javascript ? "done" : "failed"
 puts
 
 puts "Installing rename.vim..."
 rename = system(
-  "git clone https://github.com/danro/rename.vim.git ~/.vim/bundle/vim-rename"
+  "sudo git clone https://github.com/danro/rename.vim.git ~/.vim/bundle/vim-rename"
 )
 puts rename ? "done" : "failed"
 puts
 
 puts "Installing TLib.vim..."
 tlib = system(
-  "git clone https://github.com/tomtom/tlib_vim.git ~/.vim/bundle/tlib"
+  "sudo git clone https://github.com/tomtom/tlib_vim.git ~/.vim/bundle/tlib"
 )
 puts tlib ? "done" : "failed"
 puts
 
 puts "Installing MW Utils..."
 mwutils = system(
-  "git clone https://github.com/MarcWeber/vim-addon-mw-utils.git ~/.vim/bundle/mw_utils"
+  "sudo git clone https://github.com/MarcWeber/vim-addon-mw-utils.git ~/.vim/bundle/mw_utils"
 )
 puts mwutils ? "done" : "failed"
 puts
 
 puts "Installing Vim Snippets..."
 snippets = system(
-  "git clone https://github.com/honza/vim-snippets.git ~/.vim/bundle/snippets"
+  "sudo git clone https://github.com/honza/vim-snippets.git ~/.vim/bundle/snippets"
 )
 puts snippets ? "done" : "failed"
 puts
 
 puts "Installing Snipmate.vim..."
 snipmate = system(
-  "git clone https://github.com/garbas/vim-snipmate.git ~/.vim/bundle/snipmate"
+  "sudo git clone https://github.com/garbas/vim-snipmate.git ~/.vim/bundle/snipmate"
 )
 puts snipmate ? "done" : "failed"
 puts
